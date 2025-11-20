@@ -7,7 +7,7 @@ let totalCalories = 0;
 
 // Update calorie display
 function updateCalories() {
-    totalCalsDisplay.textContent = totalCalories;
+    totalCalsDisplay.textContent = totalCalories + ' calories';
 }
 
 form.addEventListener('submit', async (e) => {
